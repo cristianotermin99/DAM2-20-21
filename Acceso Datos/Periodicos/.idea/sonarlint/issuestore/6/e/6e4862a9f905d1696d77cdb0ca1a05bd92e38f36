@@ -1,0 +1,8 @@
+
+I
+java:S1612j",Replace this lambda with a method reference.(ўэ‹‚8ЦР¦РЪ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(јв‚ь8ЦР¦РЪ.
+m	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(јв‚ь8ЦР¦РЪ.
+|
+java:S1149q"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ѕО›Љ8ЦР¦РЪ.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ђФю№эяяяя8ЦР¦РЪ.

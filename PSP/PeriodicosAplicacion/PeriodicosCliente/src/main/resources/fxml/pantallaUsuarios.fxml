@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UsuariosController">
+   <children>
+      <ListView fx:id="listUsuarios" layoutX="20.0" layoutY="25.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="453.0" layoutY="248.0" mnemonicParsing="false" onAction="#buttonAddUser" text="Añadir" />
+      <Button layoutX="96.0" layoutY="260.0" mnemonicParsing="false" onAction="#buttonDelete" text="Borrar" />
+      <TextField fx:id="textNombreUser" layoutX="404.0" layoutY="35.0" />
+      <TextField fx:id="textMail" layoutX="404.0" layoutY="78.0" />
+      <TextField fx:id="textNombre" layoutX="404.0" layoutY="125.0" />
+      <Label layoutX="289.0" layoutY="39.0" text="Nombre usuario" />
+      <Label layoutX="289.0" layoutY="82.0" text="Mail" />
+      <Label fx:id="labelNombre" layoutX="290.0" layoutY="129.0" text="Nombre" />
+      <Label fx:id="labelFechaNacimiento" layoutX="288.0" layoutY="179.0" text="Fecha nacimiento" />
+      <DatePicker fx:id="dateFechaNacimiento" layoutX="404.0" layoutY="175.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CestaController">
+   <children>
+      <ListView fx:id="listCestaConMisProductos" layoutX="168.0" layoutY="48.0" prefHeight="200.0" prefWidth="218.0" />
+      <Button layoutX="168.0" layoutY="289.0" mnemonicParsing="false" onAction="#buttonComprarProductosDeLaCesta" text="Comprar" />
+      <Button layoutX="259.0" layoutY="289.0" mnemonicParsing="false" onAction="#buttonAtras" text="Atras" />
+      <Button layoutX="336.0" layoutY="289.0" mnemonicParsing="false" onAction="#buttonLogout" text="Logout" />
+   </children>
+</AnchorPane>

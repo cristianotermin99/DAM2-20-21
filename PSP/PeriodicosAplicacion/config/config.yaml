@@ -1,0 +1,4 @@
+ruta: jdbc:mysql://dam2.mysql.iesquevedo.es:3335/Cristian_Periodicos #jdbc:mysql://localhost:3333/Cristian_Periodicos?setTimezone=UTC
+user: root
+password: quevedo2020 #root
+tomcat:

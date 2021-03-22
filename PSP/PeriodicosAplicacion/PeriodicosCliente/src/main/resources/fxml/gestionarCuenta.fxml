@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GestionarCuentaController">
+    <children>
+        <Label layoutX="396.0" layoutY="45.0" text="Contraseña antigua" />
+        <Label layoutX="398.0" layoutY="107.0" text="Nueva contraseña" />
+        <Label fx:id="labelNombreUsuario" layoutX="48.0" layoutY="28.0" text="Nombre usuario" />
+        <Label fx:id="labelCorreo" layoutX="43.0" layoutY="99.0" text="Correo electronico" />
+        <Label layoutX="390.0" layoutY="174.0" text="Confirmar contraseña" />
+        <TextField fx:id="textContraseñaAntigua" layoutX="371.0" layoutY="69.0" />
+        <TextField fx:id="textNuevaContraseña" layoutX="372.0" layoutY="133.0" />
+        <TextField fx:id="textConfirmarContraseña" layoutX="373.0" layoutY="200.0" />
+        <TextField fx:id="textNombreUsuario" layoutX="30.0" layoutY="50.0" />
+        <TextField fx:id="textEmail" layoutX="30.0" layoutY="121.0" />
+        <Line endX="-19.0" endY="291.0" layoutX="303.0" layoutY="109.0" startX="-19.0" startY="-109.0" />
+        <Label fx:id="labelNombre" layoutX="48.0" layoutY="174.0" text="Nombre" />
+        <Label fx:id="labelFechaNacimiento" layoutX="45.0" layoutY="249.0" text="Fecha nacimiento" />
+        <TextField fx:id="textNombre" layoutX="30.0" layoutY="200.0" />
+      <DatePicker fx:id="dateFechaNacimiento" layoutX="30.0" layoutY="273.0" />
+      <Button layoutX="385.0" layoutY="273.0" mnemonicParsing="false" onAction="#buttonNuevaPassword" text="Actualizar password" />
+      <Button fx:id="buttonActualizar" layoutX="42.0" layoutY="330.0" mnemonicParsing="false" onAction="#buttonActualizarDatos" text="Actualizar datos" />
+    </children>
+</AnchorPane>

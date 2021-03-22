@@ -1,0 +1,22 @@
+
+P
+java:S1128".Remove this unused import 'dao.modelo.Lector'.(Ø—¦÷ÿÿÿÿÿ8‹ÄàÛ.
+U
+java:S1172“"2Remove this unused method parameter "actionEvent".(¨î¥ÿşÿÿÿÿ8ùÙÇßÛ.
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8ÏŸ„ËÚ.
+U
+java:S1172ƒ"2Remove this unused method parameter "actionEvent".(ª¼´Úøÿÿÿÿ8ÏŸ„ËÚ.
+P
+java:S1172—"2Remove this unused method parameter "actionEvent".(íôüõ8ÏŸ„ËÚ.
+P
+java:S1172‹"2Remove this unused method parameter "actionEvent".(ÅõÜ¼8ÏŸ„ËÚ.
+
+java:S1192©"Define a constant instead of duplicating this literal "Se ha producido un error al cargar pantalla gestionar usuarios" 4 times.(»ÿ½®8ÏŸ„ËÚ.
+P
+java:S1172"2Remove this unused method parameter "actionEvent".(üÕ‘´8ÏŸ„ËÚ.
+c
+java:S1192]"FDefine a constant instead of duplicating this literal "Error" 7 times.(À©×°8ÏŸ„ËÚ.
+P
+java:S1172‡"2Remove this unused method parameter "actionEvent".(ä³ÍŸ8ÏŸ„ËÚ.
+D	java:S131Œ""Add a default case to this switch.(Â„ö¥ùÿÿÿÿ8ÏŸ„ËÚ.

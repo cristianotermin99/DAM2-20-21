@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GestionarArticulosController">
+  <tabs>
+     <Tab text="Crear un autor">
+        <content>
+           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <TextField fx:id="textNombreAutor" layoutX="124.0" layoutY="73.0" />
+              <TextField fx:id="textApellidosAutor" layoutX="124.0" layoutY="107.0" />
+
+              <Button layoutX="155.0" layoutY="261.0" mnemonicParsing="false" onAction="#buttonAddAutor" text="Crear autor" />
+               <Label layoutX="58.0" layoutY="77.0" text="Nombre" />
+               <Label layoutX="58.0" layoutY="111.0" text="Apellidos" />
+
+           </AnchorPane>
+        </content>
+     </Tab>
+    <Tab text="Escribir artículo">
+      <content>
+         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+            <TextField fx:id="textTitularAdd" layoutX="124.0" layoutY="29.0" />
+            <TextField fx:id="textDescripcionAdd" layoutX="124.0" layoutY="64.0" />
+            <Label layoutX="47.0" layoutY="33.0" text="Titular" />
+            <Label layoutX="48.0" layoutY="68.0" text="Descripcion" />
+            <Label layoutX="46.0" layoutY="146.0" text="Periodico" />
+            <Label layoutX="46.0" layoutY="244.0" text="Tipo" />
+            <Label layoutX="49.0" layoutY="287.0" text="Autor" />
+            <Button layoutX="155.0" layoutY="322.0" mnemonicParsing="false" onAction="#buttonAddArticulo" text="Crear articulo" />
+               <ComboBox fx:id="comboTipoArticulos" layoutX="124.0" layoutY="240.0" prefWidth="150.0" />
+               <ListView fx:id="listPeriodicos" layoutX="124.0" layoutY="94.0" prefHeight="138.0" prefWidth="152.0" />
+               <ComboBox fx:id="comboAutores" layoutX="125.0" layoutY="283.0" prefWidth="150.0" />
+
+         </AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Actualizar articulo">
+      <content>
+         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+            <Button layoutX="88.0" layoutY="273.0" mnemonicParsing="false" onAction="#buttonDeleteArticulo" text="Borrar" />
+            <TextField fx:id="textTitularActualizar" layoutX="369.0" layoutY="48.0" />
+            <TextField fx:id="textDescripcionActualizar" layoutX="369.0" layoutY="87.0" />
+            <Label layoutX="283.0" layoutY="52.0" text="Titular" />
+            <Label layoutX="272.0" layoutY="91.0" text="Descripcion" />
+            <ListView fx:id="listArticulos" layoutX="23.0" layoutY="52.0" prefHeight="194.0" prefWidth="179.0" />
+               <Button layoutX="408.0" layoutY="149.0" mnemonicParsing="false" onAction="#buttonActualizar" text="Actualizar" />
+         </AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>

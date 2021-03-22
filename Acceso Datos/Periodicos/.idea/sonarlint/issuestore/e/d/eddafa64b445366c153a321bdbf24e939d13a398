@@ -1,0 +1,16 @@
+
+G
+java:S1905ª")Remove this unnecessary cast to "Lector".(Üˆ°Ã8ÖĞ¦ĞÚ.
+€	java:S116"_Rename this field "textNuevaContraseÃ±a" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š—ºÍûÿÿÿÿ8ÖĞ¦ĞÚ.
+U
+java:S1172ƒ"2Remove this unused method parameter "actionEvent".(Ÿï¥Ûıÿÿÿÿ8ÖĞ¦ĞÚ.
+T
+java:S1172g"2Remove this unused method parameter "actionEvent".(–î‰şÿÿÿÿ8ÖĞ¦ĞÚ.
+	java:S116"cRename this field "textConfirmarContraseÃ±a" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹œäÛ8ÖĞ¦ĞÚ.
+|	java:S116"aRename this field "textContraseÃ±aAntigua" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êù®!8ÖĞ¦ĞÚ.
+n
+java:S1192p"LDefine a constant instead of duplicating this literal "Informacion" 3 times.(Æ”ìøÿÿÿÿ8ÖĞ¦ĞÚ.
+R
+java:S2209m"5Change this instance-reference to a static reference.(ëĞÓò8ÖĞ¦ĞÚ.
+G
+java:S1905«")Remove this unnecessary cast to "Lector".(‰¥æ8ÖĞ¦ĞÚ.

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="borderPaneInicio" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PrincipalController">
+    <top>
+        <MenuBar fx:id="menuBar" BorderPane.alignment="CENTER">
+            <menus>
+                <Menu fx:id="menuGestionUsuarios" mnemonicParsing="false" text="Gestion usuarios">
+                    <items>
+                        <MenuItem fx:id="menuItemGestionarCuenta" mnemonicParsing="false"
+                                  onAction="#buttonMenuItemGestionarCuentas" text="Gestionar cuenta"/>
+                        <MenuItem fx:id="menuItemGestionarUsuarios" mnemonicParsing="false"
+                                  onAction="#buttonMenuItemGestioarUsuarios" text="Gestionar usuarios"/>
+                    </items>
+                </Menu>
+                <Menu fx:id="menuGestionPeriodicos" mnemonicParsing="false" text="Gestion periodicos">
+                    <items>
+                        <MenuItem fx:id="menuItemGestionarPeriodicos" mnemonicParsing="false"
+                                  onAction="#buttonMenuItemGestionarPeriodicos" text="Gestionar periodicos"/>
+                        <MenuItem fx:id="menuItemGestionarArticulos" mnemonicParsing="false"
+                                  onAction="#buttonMenuItemGestionarArticulos" text="Gestionar articulos"/>
+                    </items>
+                </Menu>
+                <Menu fx:id="menuSuscripciones" mnemonicParsing="false" text="Suscripciones">
+                    <items>
+                        <MenuItem fx:id="menuItemVerSuscripciones" mnemonicParsing="false"
+                                  onAction="#buttonMenuItemVerSuscripciones" text="Ver suscripciones"/>
+                    </items>
+                </Menu>
+                <Menu fx:id="menuSalir" mnemonicParsing="false" text="Salir">
+                    <items>
+                        <MenuItem fx:id="menuItemCerrarSesion" mnemonicParsing="false"
+                                  onAction="#buttonMenuItemCerrarSesion" text="Cerrar sesion"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+</BorderPane>

@@ -1,0 +1,19 @@
+
+P
+java:S1128".Remove this unused import 'dao.modelo.Lector'.(Ø—¦÷ÿÿÿÿÿ8ÖĞ¦ĞÚ.
+w
+java:S1192"ZUse already-defined constant 'QUERY_LISTA_USUARIOS' instead of duplicating its value here.(ÁÔÃó8ÖĞ¦ĞÚ.
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÛÕ„Šùÿÿÿÿ8ÖĞ¦ĞÚ.
+m
+java:S1192A"PDefine a constant instead of duplicating this literal "id_tipo_usuario" 3 times.(™ºá™8ÖĞ¦ĞÚ.
+o	java:S100Q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãØÃ®üÿÿÿÿ8ÖĞ¦ĞÚ.
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸Ï¹Ì8ÖĞ¦ĞÚ.
+i
+java:S1192>"LDefine a constant instead of duplicating this literal "primera_vez" 3 times.(¥×šõ8ÖĞ¦ĞÚ.
+n
+java:S1192C"LDefine a constant instead of duplicating this literal "descripcion" 3 times.(Ò•Öùùÿÿÿÿ8ÖĞ¦ĞÚ.
+e
+java:S1128"CRemove this unused import 'com.mysql.cj.jdbc.result.ResultSetImpl'.(º¡¿±ùÿÿÿÿ8ÖĞ¦ĞÚ.
+r	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãØÃ®üÿÿÿÿ8ÖĞ¦ĞÚ.
+k
+java:S1192="IDefine a constant instead of duplicating this literal "password" 3 times.(ÜØÖıÿÿÿÿ8ÖĞ¦ĞÚ.

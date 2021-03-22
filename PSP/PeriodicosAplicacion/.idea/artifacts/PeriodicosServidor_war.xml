@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PeriodicosServidor:war">
+    <output-path>$PROJECT_DIR$/PeriodicosServidor/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>PeriodicosServidor</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="PeriodicosServidor-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="PeriodicosServidor:war exploded" />
+    </root>
+  </artifact>
+</component>

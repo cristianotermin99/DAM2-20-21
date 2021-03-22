@@ -1,0 +1,3 @@
+INSERT INTO practica1.facciones (nombreFaccion, personaContacto, planeta, numeroSistemas, fechaUltimaCompra) VALUES ('Seton', 'Raul', 'Narigon', 8, '2020-10-26');
+INSERT INTO practica1.facciones (nombreFaccion, personaContacto, planeta, numeroSistemas, fechaUltimaCompra) VALUES ('Tsuneo', 'Tsuneo', 'Friki', 10, '2005-05-05');
+INSERT INTO practica1.facciones (nombreFaccion, personaContacto, planeta, numeroSistemas, fechaUltimaCompra) VALUES ('Xore', 'Jaime', 'Venus', 3, '2020-10-15');

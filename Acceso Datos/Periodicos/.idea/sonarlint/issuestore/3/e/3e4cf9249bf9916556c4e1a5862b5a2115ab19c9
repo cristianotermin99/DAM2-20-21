@@ -1,0 +1,21 @@
+
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ª›—ÊÚ.
+R
+java:S1128"5Remove this unused import 'java.util.logging.Logger'.(ƒ¥óš8ª›—ÊÚ.
+V
+java:S1128
+"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ª›—ÊÚ.
+q
+java:S2095v"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Øíõ­ıÿÿÿÿ8ª›—ÊÚ.
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸Ï¹Ì8ª›—ÊÚ.
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ª›—ÊÚ.
+r
+java:S2095¨"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Øíõ­ıÿÿÿÿ8ª›—ÊÚ.
+}
+java:S3008"`Rename this field "QUERY_INSERTAR_LECTOR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²øş‚8ª›—ÊÚ.
+L
+java:S1481r"*Remove this unused "filas" local variable.(ıåôáûÿÿÿÿ8ª›—ÊÚ.
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ª›—ÊÚ.

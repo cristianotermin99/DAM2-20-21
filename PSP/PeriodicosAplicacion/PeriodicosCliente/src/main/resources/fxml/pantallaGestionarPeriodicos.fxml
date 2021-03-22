@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GestionarPeriodicosController">
+  <tabs>
+    <Tab text="Crear periodico">
+      <content>
+         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+            <Label layoutX="17.0" layoutY="69.0" text="Nombre" />
+            <Label layoutX="22.0" layoutY="112.0" text="Precio" />
+            <Label layoutX="18.0" layoutY="156.0" text="Director" />
+            <TextField fx:id="textNombreAdd" layoutX="66.0" layoutY="69.0" />
+            <TextField fx:id="textPrecioAdd" layoutX="66.0" layoutY="112.0" />
+            <TextField fx:id="textDirectorAdd" layoutX="66.0" layoutY="152.0" />
+            <Button layoutX="108.0" layoutY="212.0" mnemonicParsing="false" onAction="#buttonAddPeriodico" text="Añadir" />
+            <Label layoutX="392.0" layoutY="24.0" text="Admin" />
+               <Label layoutX="301.0" layoutY="61.0" text="User" />
+               <Label layoutX="302.0" layoutY="100.0" text="Mail" />
+               <TextField fx:id="textAdminAdd" layoutX="361.0" layoutY="57.0" />
+               <TextField fx:id="textMailAdd" layoutX="361.0" layoutY="100.0" />
+         </AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Actualizar periodico">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+               <ListView fx:id="listPeriodicos" layoutX="29.0" layoutY="27.0" prefHeight="152.0" prefWidth="200.0" />
+               <Button layoutX="95.0" layoutY="206.0" mnemonicParsing="false" onAction="#buttonBorrarPeriodico" text="Borrar" />
+               <Button layoutX="377.0" layoutY="186.0" mnemonicParsing="false" onAction="#buttonActualizar" text="Actualizar" />
+               <TextField fx:id="textNombreActualizar" layoutX="350.0" layoutY="27.0" />
+               <TextField fx:id="textDirectorActualizar" layoutX="350.0" layoutY="109.0" prefHeight="25.0" prefWidth="149.0" />
+               <TextField fx:id="textPrecioActualizar" layoutX="350.0" layoutY="70.0" prefHeight="25.0" prefWidth="149.0" />
+               <Label layoutX="278.0" layoutY="31.0" text="Nombre" />
+               <Label layoutX="284.0" layoutY="113.0" text="Director" />
+               <Label layoutX="284.0" layoutY="74.0" text="Precio" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>

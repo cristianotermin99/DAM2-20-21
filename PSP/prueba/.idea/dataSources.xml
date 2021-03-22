@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@localhost" uuid="068c0b5e-e0e1-47d2-bb94-264c0bd87dde">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="GMT+1" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="@dam2.mysql.iesquevedo.es" uuid="b2d716aa-74d0-473f-b332-076d7097ffd2">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://dam2.mysql.iesquevedo.es:3335</jdbc-url>
+    </data-source>
+  </component>
+</project>

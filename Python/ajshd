@@ -1,0 +1,17 @@
+name = input("Cual es tu nombre?")
+print(name)
+
+#lista
+lista1 = ["juan",10,true]
+print(type(lista1))
+
+#print(dir(type(lista1)))
+#lista1.push(5.0)
+#print(lista)
+
+lista1.append(5.0) #introduce por el final
+lista1.insert(0,False) #introduce en una posicion especifica
+
+print 
+
+#tupla = ()

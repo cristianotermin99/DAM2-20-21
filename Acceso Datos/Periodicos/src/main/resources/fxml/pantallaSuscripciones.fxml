@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SuscripcionesController">
+  <tabs>
+    <Tab text="Suscribirse a un periodico">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="listPeriodicos" layoutX="83.0" layoutY="34.0" prefHeight="200.0" prefWidth="200.0" />
+                  <Button layoutX="146.0" layoutY="274.0" mnemonicParsing="false" onAction="#buttonSuscribirse" text="Suscribirse" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Mis suscripciones">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="listMisSuscripciones" layoutX="59.0" layoutY="32.0" onMouseClicked="#suscripcionSeleccionada" prefHeight="200.0" prefWidth="200.0" />
+                  <Button layoutX="124.0" layoutY="257.0" mnemonicParsing="false" onAction="#buttonBorrarSuscripcion" text="Borrar suscripcion" />
+                  <ListView fx:id="listArticulosDeUnPeriodico" layoutX="332.0" layoutY="38.0" prefHeight="187.0" prefWidth="197.0" />
+                  <Button layoutX="405.0" layoutY="257.0" mnemonicParsing="false" onAction="#buttonLeerArticulo" text="Leer articulo" />
+                  <AnchorPane fx:id="anchorPantallaArticulo" layoutX="36.0" layoutY="7.0" prefHeight="329.0" prefWidth="517.0" style="-fx-background-color: grey;" visible="false">
+                     <children>
+                        <Label fx:id="textTitular" alignment="CENTER" contentDisplay="CENTER" layoutY="35.0" prefHeight="59.0" prefWidth="518.0" text="Titular">
+                           <font>
+                              <Font size="33.0" />
+                           </font></Label>
+                        <Label fx:id="textDescripcion" alignment="CENTER" contentDisplay="CENTER" layoutY="176.0" prefHeight="57.0" prefWidth="518.0" text="Descripcion">
+                           <font>
+                              <Font size="20.0" />
+                           </font></Label>
+                        <Button layoutX="216.0" layoutY="254.0" mnemonicParsing="false" onAction="#buttonCerrarArticulo" text="Cerrar articulo" />
+                     </children></AnchorPane>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>

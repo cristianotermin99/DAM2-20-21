@@ -1,0 +1,13 @@
+
+n
+java:S1192>"LDefine a constant instead of duplicating this literal "Informacion" 3 times.(¤Œüÿÿÿÿÿ8ÙıÎÇÚ.
+M
+java:S11722"2Remove this unused method parameter "actionEvent".(˜±¦”ıÿÿÿÿ
+S
+java:S1128	"8Remove this unused import 'servicios.ServiciosLectores'.(˜™îşûÿÿÿÿ
+M
+java:S1172I"2Remove this unused method parameter "actionEvent".(òËîÿÿÿÿÿ
+}
+java:S1450$"bRemove the "principalController" field and declare it as a local variable in the relevant methods.(Íœ„‘øÿÿÿÿ
+R
+java:S1068$"7Remove this unused "principalController" private field.(Íœ„‘øÿÿÿÿ

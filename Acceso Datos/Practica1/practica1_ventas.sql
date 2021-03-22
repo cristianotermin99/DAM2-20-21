@@ -1,0 +1,2 @@
+INSERT INTO practica1.ventas (cantidad, fechaVenta, nombreFaccion1, nombreFaccion2) VALUES (2, '2020-10-13', 'Tsuneo', 'Xore');
+INSERT INTO practica1.ventas (cantidad, fechaVenta, nombreFaccion1, nombreFaccion2) VALUES (5, '2020-10-08', 'Xore', 'Seton');

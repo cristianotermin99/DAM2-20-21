@@ -1,0 +1,8 @@
+
+q
+java:S2095J"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Øíõ­ıÿÿÿÿ8Á¶ÚôÛ.
+L
+java:S1128
+"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø8Á¶ÚôÛ.
+P
+java:S1128".Remove this unused import 'dao.modelo.Lector'.(Ø—¦÷ÿÿÿÿÿ8Á¶ÚôÛ.
